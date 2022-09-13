@@ -1,0 +1,311 @@
+﻿.container > header {
+  position: relative;
+}
+.container > header {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  background-size: 100% 100%;
+  position: relative;
+}
+.company > h1 {
+  padding: 0px;
+  margin: 0px;
+  font-family: Impact;
+  font-size: 20px;
+}
+.company {
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  font-variant: small-caps;
+  color: white;
+  text-shadow: 0 0 4px orangered;
+}
+.container > nav {
+  text-align: center;
+  font-variant: small-caps;
+  line-height: 40px;
+  height: 40px;
+  color: white;
+  background-color: orangered;
+  width: 100%;
+}
+.container > nav > a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.container > nav > a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+.container > article {
+  width: 90;
+  min-height: 350px;
+}
+ul.hmenu > li:hover > .sub-menu {
+  display: block;
+}
+.sub-menu {
+  padding: 10px;
+  margin: 5px;
+  list-style: none;
+  border-radius: 3px;
+  box-shadow: 0 0 2px gray;
+  background-color: white;
+}
+.sub-menu > li > a {
+  display: block;
+  border-bottom: 1px dotted orangered;
+  color: orangered;
+  font-variant: small-caps;
+  font-size: larger;
+  text-decoration: none;
+  padding: 8px 5px 8px 30px;
+}
+.sub-menu > li > a:hover {
+  border-bottom: 1px dotted white;
+  background-color: orangered;
+  font-weight: bold;
+  color: white;
+}
+.container > aside {
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+}
+.container > footer {
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+  font-variant: small-caps;
+  background-color: gray;
+  clear: both;
+}
+.menu > ul > li {
+  display: inline-block;
+  position: relative;
+}
+.menu > ul > li > a {
+  display: block;
+  text-decoration: none;
+  font-variant: small-caps;
+  font-size: larger;
+  color: white;
+  padding: 0 10px;
+  line-height: 40px;
+}
+.menu > ul > li > a:hover {
+  color: yellow;
+}
+.menu > ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  border-radius: 3px;
+  background-color: orangered;
+  text-align: center;
+}
+.menu ul ul {
+  position: absolute;
+  display: none;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  border-radius: 3px;
+  width: 200px;
+  box-shadow: 0 0 1px gray;
+}
+.menu ul ul a {
+  display: block;
+  line-height: 50px;
+  text-decoration: none;
+  color: orangered;
+  font-variant: small-caps;
+  font-size: larger;
+  padding: 0 10px;
+}
+.menu > ul > li:hover > ul {
+  display: block;
+}
+.menu ul ul a:hover {
+  display: block;
+  background-color: orangered;
+  color: white;
+}
+.vmenu {
+  padding: 0px;
+  margin: 5px;
+  list-style: none;
+  border-radius: 3px;
+  box-shadow: 0 0 2px white;
+}
+.vmenu a {
+  background: url("http://bit.ly/37pbcwR") no-repeat 10px center;
+  background-size: 10px 10px;
+  display: block;
+  border-bottom: 1px dotted orangered;
+  color: orangred;
+  font-variant: small-caps;
+  font-size: larger;
+  text-decoration: none;
+  padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover {
+  background: url("http://bit.ly/37pbcwR") no-repeat 10px center;
+  background-size: 10px 10px;
+  border-bottom: 1px dotted white;
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+}
+.hmenu {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px orangered;
+  height: 40px;
+  list-style: none;
+  background-color: orangered;
+}
+.hmenu > li > a {
+  color: white;
+  font-variant: small-caps;
+  line-height: 40px;
+  display: block;
+  text-decoration: none;
+  padding-left: 25px;
+}
+.hmenu > li > a:hover {
+  font-weight: bold;
+  color: yellow;
+}
+.hmenu > li {
+  float: center;
+  margin: 0 5px;
+  position: relative;
+}
+.column {
+  width: 25%;
+  float: left;
+}
+.san-pham {
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+  padding: 10 px;
+  margin: 5 px;
+  text-align: center;
+}
+.san-pham .ten {
+  font-size: larger;
+  font-variant: small-caps;
+  color: blue;
+}
+.san-pham img {
+  max-width: 90%;
+}
+.san-pham .gia {
+  color: red;
+  font-weight: bold;
+  font-size: larger;
+}
+.san-pham .gia del {
+  color: gray;
+}
+.top-menu {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  background-color: white;
+  line-height: 30px;
+  padding: 0 10px 0 30px;
+  box-shadow: 0 0 20px white;
+}
+.top-menu > a {
+  text-decoration: none;
+  color: black;
+  font-variant: small-caps;
+}
+.top > menu > a:hover {
+  font-weight: bold;
+  color: yellow;
+}
+.bo {
+  position: absolute;
+  line-height: 65px;
+  right: 20%;
+}
+.giua {
+  position: absolute;
+  height: 60%;
+  left: 5%;
+}
+
+.thongtin {
+  float: left;
+  text-align: left;
+  padding-right: 200px;
+  color: white;
+}
+.hotro {
+  float: right;
+  padding-right: 750px;
+  text-align: left;
+  color: white;
+}
+.signin {
+  width: 330px;
+  transform: translateX(140%);
+}
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.form-group i {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: grey;
+  font-size: 18px;
+}
+.form-control {
+  padding: 15px 40px;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 0 3px blue;
+  color: orangered;
+  display: block;
+  outline: none;
+}
+.form-control:focus {
+  box-shadow: 0 0 3px orangered;
+}
+.button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  box-shadow: 0 0 3px gray;
+  padding: 10px 30px;
+  background: transparent;
+  margin: 0 10px;
+}
+.button:hover {
+  color: blue;
+  box-shadow: inset 0 0 20px orangered;
+}
+.button:disabled {
+  color: darkgray;
+  box-shadow: inset 0 0 20px gray;
+}
+.span-thongbao {
+  margin-bottom: 15px;
+  color: red;
+  font-weight: bold;
+}

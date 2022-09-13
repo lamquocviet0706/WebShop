@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Sign Up</title>
+    <link href="StyleSheetDangKi.css" rel="StyleSheet" type="text/css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+   <header>
+         <div class="top-menu">
+                <a  href="DangKi.html">Đăng Kí | </a>
+                <a  href="DangNhap.html">Đăng nhập</a>
+        </div>
+            <div class="giua"><a href="index.html"><img src="hinhanh\logo.png" height="80px"></a></div>
+             <div class="bo">
+                    <input type="text" name="text" placeholder="Tiềm kiếm..." />
+                    
+              </div>
+   <div class="company">
+   </div>
+   </header>
+       <nav class="menu">
+        <ul class="hmenu">
+        <li><a href="index.html">Sản Phẩm Mới</a>           
+        </li>
+        <li><a href="Nam.html">Nam</a>
+        <ul class="sub-menu">
+                <li><a href="#">Sản phẩm mới</a></li>
+                <li><a href="#">Giày bóng rổ</a></li>
+                <li><a href="#">Giày chạy bộ</a></li>
+                <li><a href="#">Giày Sneaker</a></li>
+                <li><a href="#">Quần áo thể thao</a></li>
+                <li><a href="#">Quần áo bóng rổ</a></li>
+            </ul>
+        </li>
+        <li><a href="Nu.html">Nữ</a>
+            <ul class="sub-menu">
+                <li><a href="#">Sản phẩm mới</a></li>
+                <li><a href="#">Giày bóng rổ</a></li>
+                <li><a href="#">Giày chạy bộ</a></li>
+                <li><a href="#">Giày Sneaker</a></li>
+                <li><a href="#">Quần áo thể thao</a></li>
+                <li><a href="#">Quần áo bóng rổ</a></li>
+            </ul>
+        </li>
+        <li><a href="TreEm.html">Trẻ Em</a>
+        <ul class="sub-menu">
+        <li><a href="#">Giày bóng rổ trẻ em</a></li>
+            </ul>
+        </li>
+        <li><a href="1">Phụ Kiện</a>
+        </li>
+        <li><a href="1">Tin Tức & Sự Kiện</a>
+        </li>
+    </ul>
+</nav>
+   <article>
+   <h1 align="center">Đăng Kí</h1><hr/><br />
+    <form class="signup" onsubmit="return checkForm()">
+        <span class="span-thongbao" id="usererror"></span>
+        <div class="form-group"> 
+            <i class="fa fa-user"></i>
+            <input type="text" class="form-control" placeholder="Tên đăng nhập" id="username"/>
+        </div>
+        <span class="span-thongbao" id="passerror"></span>
+        <div class="form-group">
+            <i class="fa fa-lock"></i>
+            <input type="password" class="form-control" placeholder="Mật khẩu" id="password"/>
+        </div>
+        <span class="span-thongbao" id="emailerror"></span>
+        <div class="form-group"> 
+            <i class="fa fa-envelope"></i>  
+            <input type="text" class="form-control" placeholder="Email" id="email"/>
+        </div>
+        <div class="form-group"> 
+            <button type="submit" tabindex="12" class="form-button">Đăng Kí</button>
+            <button type="reset" tabindex="13" class="form-button">Nhập lại</button>
+        </div>
+    </form>
+   </article>
+   <aside> 
+   <div class="thongtin">
+   <h1>THÔNG TIN</h1>
+   <hr></hr>
+   Số 210, Tôn Đức Thắng, Đống Đa, HN<br />
+   Số 996, CMT8, P5, Tân Bình, TPHCM<br />
+   Email: contact@alzadosport.com<br />
+   Hotline: 0866550286 | 0942430445<br />
+   </div> 
+   <div class="hotro">
+   <h1>HỖ TRỢ</h1>
+   <hr></hr>
+   Câu hỏi thường gặp<br  />
+   Chính sách thanh toán và vận chuyển<br  />
+   Hướng dẫn chọn size giày bóng rổ PEAK<br  />
+   </div>
+   </aside>
+   <footer>
+        Copyright 2020 © PEAK Sport Việt Nam
+   </footer> 
+   <!-- <script src="https://uhchat.net/code.php?f=d81124"></script> -->
+   <script src="./js/dangKi.js"></script>
+</div>
+</body>
+</html>
